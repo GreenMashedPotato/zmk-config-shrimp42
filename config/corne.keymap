@@ -35,6 +35,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <10 9>;
         };
+
+        mo3l {
+            bindings = <&mo 3>;
+            key-positions = <36 37>;
+        };
+
+        mo3r {
+            bindings = <&mo 3>;
+            key-positions = <40 41>;
+        };
     };
 
     macros {
@@ -78,19 +88,19 @@
 
         raise {
             bindings = <
- &kp TILDE    &kp N1        &kp N2         &kp N3          &kp N4           &kp N5          &kp N6     &kp N7     &kp N8         &kp N9          &kp N0  &kp BACKSPACE
-    &trans  &kp LGUI  &kp LEFT_ALT      &kp LCTRL  &kp LEFT_SHIFT   &kp LEFT_SHIFT          &trans  &kp RSHFT  &kp RCTRL  &kp RIGHT_ALT   &kp RIGHT_GUI       &kp PLUS
-    &trans    &trans  &screen_left  &screen_right  &kp LEFT_BRACE  &kp RIGHT_BRACE          &trans     &trans     &trans         &trans  &kp UNDERSCORE     &kp RSHIFT
-                                            &mo 3          &trans           &trans          &trans      &mo 3     &trans
+ &kp GRAVE    &kp N1        &kp N2         &kp N3            &kp N4             &kp N5          &kp N6     &kp N7     &kp N8         &kp N9         &kp N0  &kp BACKSPACE
+    &trans  &kp LGUI  &kp LEFT_ALT      &kp LCTRL    &kp LEFT_SHIFT     &kp LEFT_SHIFT          &trans  &kp RSHFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI      &kp EQUAL
+    &trans    &trans  &screen_left  &screen_right  &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &trans     &trans     &trans         &trans      &kp MINUS     &kp RSHIFT
+                                           &trans            &trans             &trans          &trans     &trans     &trans
             >;
         };
 
         lower {
             bindings = <
-   &kp K_MUTE  &trans  &trans  &trans  &trans  &trans             &trans        &trans    &kp UP         &trans       &kp MINUS     &trans
- &kp K_VOL_UP  &trans  &trans  &trans  &trans  &trans          &kp PG_UP      &kp LEFT  &kp DOWN      &kp RIGHT  &kp UNDERSCORE   &kp PLUS
- &kp K_VOL_DN  &trans  &trans  &trans  &trans  &trans          &kp PG_DN  &screen_left    &trans  &screen_right        &kp PIPE  &kp TILDE
-                               &trans   &mo 3  &trans             &trans        &trans     &mo 3
+        &kp K_MUTE  &trans  &trans  &trans  &trans  &trans             &trans        &trans    &kp UP         &trans  &kp UNDERSCORE           &trans
+   &kp K_VOLUME_UP  &trans  &trans  &trans  &trans  &trans          &kp PG_UP      &kp LEFT  &kp DOWN      &kp RIGHT       &kp MINUS         &kp PLUS
+ &kp K_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans          &kp PG_DN  &screen_left    &trans  &screen_right   &kp BACKSLASH  &kp RIGHT_SHIFT
+                                    &trans  &trans  &trans             &trans        &trans    &trans
             >;
         };
 
