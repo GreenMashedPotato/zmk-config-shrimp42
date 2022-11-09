@@ -52,7 +52,7 @@
         };
         screen_right: screen_right {
             compatible = "zmk,behavior-macro";
-            label = "screen_left";
+            label = "screen_right";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
