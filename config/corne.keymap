@@ -27,7 +27,7 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&trans>;
+            bindings = <&kp TAB>;
             key-positions = <13 14>;
         };
 
