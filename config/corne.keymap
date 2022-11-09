@@ -98,7 +98,7 @@
         lower {
             bindings = <
         &kp K_MUTE  &trans  &trans  &trans  &trans  &trans             &trans        &trans    &kp UP         &trans  &kp UNDERSCORE           &trans
-   &kp K_VOLUME_UP  &trans  &trans  &trans  &trans  &trans          &kp PG_UP      &kp LEFT  &kp DOWN      &kp RIGHT       &kp MINUS         &kp PLUS
+   &kp K_VOLUME_UP  &trans  &trans  &trans  &trans  &trans          &kp PG_UP      &kp LEFT  &kp DOWN      &kp RIGHT       &kp MINUS        &kp EQUAL
  &kp K_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans          &kp PG_DN  &screen_left    &trans  &screen_right   &kp BACKSLASH  &kp RIGHT_SHIFT
                                     &trans  &trans  &trans             &trans        &trans    &trans
             >;
